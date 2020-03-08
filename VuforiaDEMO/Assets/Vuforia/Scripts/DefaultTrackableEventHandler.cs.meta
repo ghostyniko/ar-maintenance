@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 5a917f0af64a6423093132dab321c15f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scrollView: {fileID: 4810088216908491860, guid: 8135a932143851d43ae892b8d88145bb,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

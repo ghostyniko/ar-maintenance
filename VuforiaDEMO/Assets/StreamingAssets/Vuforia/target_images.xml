@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="pen1" sideLength="8.000000"/>
+        <ImageTarget name="qr4" size="10.000000 9.892934"/>
+        <ImageTarget name="qr3" size="10.000000 9.821428"/>
+        <ImageTarget name="qr2" size="10.000000 10.000000"/>
+        <ImageTarget name="qr" size="1.000000 1.000000"/>
+        <ImageTarget name="notebook_mark" size="480.000000 465.812805"/>
+        <ImageTarget name="pen.Bottom" size="0.022500 0.013500"/>
+        <ImageTarget name="pen.Front" size="0.022500 0.040000"/>
+        <ImageTarget name="pen.Right" size="0.013500 0.040000"/>
+        <ImageTarget name="pen.Back" size="0.022500 0.040000"/>
+        <ImageTarget name="pen.Left" size="0.013500 0.040000"/>
+        <ImageTarget name="bla.Bottom" size="225.000000 135.000000"/>
+        <ImageTarget name="bla.Front" size="225.000000 400.000000"/>
+        <ImageTarget name="bla.Right" size="135.000000 400.000000"/>
+        <ImageTarget name="bla.Back" size="225.000000 400.000000"/>
+        <ImageTarget name="bla.Left" size="135.000000 400.000000"/>
+        <MultiTarget name="pen">
+            <Part name="pen.Left" translation="-0.011250000447034836 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="pen.Right" translation="0.011250000447034836 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="pen.Front" translation="0 0 0.006750000175088644" rotation="AD: 1 0 0 0"/>
+            <Part name="pen.Back" translation="0 0 -0.006750000175088644" rotation="AD: 0 1 0 180"/>
+            <Part name="pen.Bottom" translation="0 -0.019999999552965164 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="pencil">
+            <Part name="bla.Left" translation="-112.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="bla.Right" translation="112.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="bla.Front" translation="0 0 67.5" rotation="AD: 1 0 0 0"/>
+            <Part name="bla.Back" translation="0 0 -67.5" rotation="AD: 0 1 0 180"/>
+            <Part name="bla.Bottom" translation="0 -200.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
